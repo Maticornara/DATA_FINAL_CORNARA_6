@@ -1,0 +1,214 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+body {
+
+background-image: linear-gradient(white,#BCC7CE);
+background-size: 100%;
+background-repeat: no-repeat;
+background-origin: content-box;
+font-family: "Poppins", sans-serif;
+font-weight: 300;
+
+}
+
+
+
+h1 {
+    font-family: "Poppins",sans-serif;
+    font-size: 60pt;
+    color: #085085;
+    text-align: center;
+    
+}
+
+h2 {
+    font-family: "Poppins",sans-serif;
+    font-weight: 200;
+    font-size: 23pt;
+    color:#085085;
+    text-align: center;
+    margin-top: -4%;
+   
+}
+
+h3 {
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+    font-size: 23pt;
+    color: #87A839;
+    text-align: center;
+    margin-top: 5%;
+}
+
+#button1 {
+    font-family: "Poppins",sans-serif;
+    font-size: 10pt;
+    color: white;
+    background-color: #87A839;
+    text-align: center;
+    margin-left: 43.7%;
+    margin-right: 43.7%;
+    border-radius: 10px;
+
+
+
+}
+
+#button1:hover {
+    background-color: #085085;
+    margin-left: 40%;
+    margin-right: 40%;
+    transition-duration: 300ms;
+    letter-spacing: 5px;
+
+}
+
+#button2 {
+    font-family: "Poppins",sans-serif;
+    font-size: 10pt;
+    color: white;
+    background-color: #87A839;
+    text-align: center;
+    margin-left: 43.7%;
+    margin-right: 43.7%;
+    border-radius: 10px;
+    margin-top: 10px;
+
+
+
+}
+
+#button2:hover {
+    background-color: #085085;
+    margin-left: 40%;
+    margin-right: 40%;
+    transition-duration: 300ms;
+    letter-spacing: 5px;
+
+}
+
+#button3 {
+    font-family: "Poppins",sans-serif;
+    font-size: 10pt;
+    color: white;
+    background-color: #87A839;
+    text-align: center;
+    margin-left: 43.7%;
+    margin-right: 43.7%;
+    border-radius: 10px;
+    margin-top: 10px;
+
+
+
+}
+
+#button3:hover {
+    background-color: #085085;
+    margin-left: 40%;
+    margin-right: 40%;
+    transition-duration: 300ms;
+    letter-spacing: 5px;
+
+}
+
+#animacion1 {
+
+width: 1980;
+height: 408px;
+background-image: url(../Imagenes/MELTING-02.png);
+animation: melting 3s infinite;
+animation-timing-function: steps(24);
+justify-content: center;
+margin-top: 150px;
+
+
+}
+
+    @keyframes melting {
+
+from {background-position: 0px 9648px}
+
+to {background-position: 200px 0px}
+
+
+    }
+
+    section {
+
+        width: 90%;
+        margin: 10px auto;
+        display: flex;
+        flex-wrap:wrap;
+        /*hacer que si los contenedores no entran, es decir su suma supera el width del contenedor padre, entonces se van debajo generando una nueva fila*/
+        justify-content: space-between;
+        
+        
+        }
+        #datita{
+          
+            display:block;
+            flex-wrap: wrap;
+            margin-top: 80px;
+            color: #085085;
+     
+            margin-bottom: 10px;
+        
+        }
+
+    #imagenes {
+
+        width: 30%;
+
+    }
+
+    img {width: 100%; margin-top: 100px;}
+    video {width: 100%; margin-top: 20;}
+
+
+ #imagen1 {
+
+ width:20%;
+ }
+
+ #imagen2 {
+
+width:20%;
+}
+
+#imagen3 {
+
+ width:20%;
+}
+
+#imagen4 {
+
+    width:30%;
+   }
+
+   #imagen5 {
+
+    width:30%;
+   }
+
+   #imagen6 {
+
+    width:60%;
+   }
+
+   #imagen7 {
+
+    width:30%;
+   }
+
+   #imagen8 {
+
+    width:30%;
+   }  
+
+   #imagen9 {
+
+    width:60%;
+   }  
